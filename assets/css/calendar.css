@@ -47,18 +47,22 @@
 }
 
 .calendar .days li .event.span-2 {
+  background: linear-gradient(#ffbbb8, #ffeada);
   width: 200%;
 }
 
 .calendar .days li .event.span-3 {
+  background: linear-gradient(#ffbbb8, #ffeada);
   width: 350%;
 }
 
 .calendar .days li .event.span-4 {
+  background: linear-gradient(#ffbbb8, #ffeada);
   width: 400%;
 }
 
 .calendar .days li .event.begin {
+
   border-radius: 1rem 0 0 1rem;
 }
 
@@ -76,5 +80,22 @@
 
 .calendar .days li.outside .date {
   color: #ddd;
+}
+
+.space{
+  background: #61232a;
+  margin-top: 1%;
+  margin-bottom: 3%;
+
+  width: 120px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:576px) {
+  #bulan{
+      justify-content: center;
+  }
 }
 
